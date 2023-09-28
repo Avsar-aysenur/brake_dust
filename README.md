@@ -25,8 +25,8 @@ void main()
    while(TRUE)
    {
    
-    set_adc_channel(0);  
-    analogBilgi = read_adc();
+ set_adc_channel(0);  
+ analogBilgi = read_adc();
     
    if(INPUT(BUTTON) == 1){
    set_pwm1_duty((int16) analogBilgi);
